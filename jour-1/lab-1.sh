@@ -29,3 +29,5 @@ az appservice plan delete --name AppServicePlan --resource-group $RG --yes
 
 az webapp list-runtimes --os-type linux
 
+
+az appservice plan create --name MonAppServicePlan --resource-group MonPremierGroupe --sku FREE --is-linux
